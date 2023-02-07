@@ -14,13 +14,13 @@
     <dependencies>
         <dependency>
             <groupId>cglib</groupId>
-            <artifactId>cglib-nodep</artifactId>
-            <version>3.0</version>
+            <artifactId>cglib</artifactId>
+            <version>3.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.spockframework</groupId>
             <artifactId>spock-core</artifactId>
-            <version>1.0-groovy-2.4</version>
+            <version>2.3-groovy-4.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -35,6 +35,8 @@
             <version>7.0.21</version>
             <scope>provided</scope>
         </dependency>
+
+
     </dependencies>
     <build>
         <plugins>
@@ -51,6 +53,15 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
