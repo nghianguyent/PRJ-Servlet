@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da3c0e6e-bd7b-49e7-a1a8-4b7a232aadd3" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_7_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spockframework_spock_core_1_0_groovy_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqljdbc4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC2SE1603.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/cart/CartObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/AddItemToCartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/CheckoutItemServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/ConfirmCheckoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/CreateNewAccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/DeleteAccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/DispatchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/FirstRequestServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/LogOutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/RemoveItemFromCartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/SearchLastnameServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/SearchServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/UpdateAccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/controller/ViewShopServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/filter/DispatchFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/listener/MyContextServletListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/order/OrderDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/order/OrderDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/orderdetail/OrderDetailDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/orderdetail/OrderDetailDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/product/ProductDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/product/ProductDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/product/ProductList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/registration/RegistrationCreateError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/registration/RegistrationDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/registration/RegistrationDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/utils/DBHelpers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/utils/MyApplicationConstants$DispatchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/utils/MyApplicationConstants$LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/binhnd/utils/MyApplicationConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/lib/jstl-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/siteMaps.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/createNewAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/createNewAccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/invalid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/shopping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/web/userCart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/MVC2SE1603.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/ant-deploy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conf/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/cart/CartObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/AddItemToCartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/CheckoutItemServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/ConfirmCheckoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/CreateNewAccountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/DeleteAccountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/DispatchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/FirstRequestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/LogOutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/RemoveItemFromCartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/SearchLastnameServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/UpdateAccountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/controller/ViewShopServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/filter/DispatchFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/listener/MyContextServletListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/order/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/order/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/orderdetail/OrderDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/orderdetail/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/product/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/product/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/product/ProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/registration/RegistrationCreateError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/registration/RegistrationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/registration/RegistrationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/utils/DBHelpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/binhnd/utils/MyApplicationConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NewSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/cart/CartObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/AddItemToCartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/CheckoutItemServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/ConfirmCheckoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/CreateNewAccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/DeleteAccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/DispatchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/FirstRequestServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/LogOutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/RemoveItemFromCartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/SearchLastnameServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/UpdateAccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/controller/ViewShopServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/filter/DispatchFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/listener/MyContextServletListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/order/OrderDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/order/OrderDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/orderdetail/OrderDetailDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/orderdetail/OrderDetailDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/product/ProductDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/product/ProductDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/product/ProductList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/registration/RegistrationCreateError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/registration/RegistrationDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/registration/RegistrationDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/utils/DBHelpers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/utils/MyApplicationConstants$DispatchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/utils/MyApplicationConstants$LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/binhnd/utils/MyApplicationConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/NewSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/siteMaps.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/createNewAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/createNewAccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/invalid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/shopping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/userCart.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LMPou9O75GE277IJe2Z30dEZ3k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/sqljdbc4.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.NewSpec.Should be able to login">
+    <configuration name="NewSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC2SE1603" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NewSpec" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewSpec.Should be able to create account" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC2SE1603" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NewSpec" />
+      <option name="METHOD_NAME" value="Should be able to create account" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewSpec.Should be able to login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC2SE1603" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NewSpec" />
+      <option name="METHOD_NAME" value="Should be able to login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewSpec.Should be able to remove from list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC2SE1603" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NewSpec" />
+      <option name="METHOD_NAME" value="Should be able to remove from list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NewSpec.Should be able to login" />
+        <item itemvalue="JUnit.NewSpec" />
+        <item itemvalue="JUnit.NewSpec.Should be able to create account" />
+        <item itemvalue="JUnit.NewSpec.Should be able to remove from list" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da3c0e6e-bd7b-49e7-a1a8-4b7a232aadd3" name="Changes" comment="" />
+      <created>1675678159685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675678159685</updated>
+      <workItem from="1675678160873" duration="11000" />
+      <workItem from="1675678175911" duration="5000" />
+      <workItem from="1675678190087" duration="1796000" />
+      <workItem from="1675681161013" duration="5408000" />
+      <workItem from="1675694776708" duration="8183000" />
+      <workItem from="1675733770669" duration="434000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>
