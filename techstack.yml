@@ -1,0 +1,41 @@
+repo_name: nghianguyent/PRJ-Servlet
+report_id: 2fedf5e2c6749af989d7bce8aac01959
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-27T14:01:03+00:00'
+requested_by: nghianguyent
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nghianguyent/PRJ-Servlet
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/nghianguyent/PRJ-Servlet
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nghianguyent/PRJ-Servlet
+  detection_source: Repo Metadata
